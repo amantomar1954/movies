@@ -7,7 +7,7 @@
     "year": 2023,
     "duration": "3h 12m",
     "genre": ["Sci-Fi", "Adventure", "Action"],
-    "image": "/placeholder.svg?height=800&width=1400"
+    "image": "https://images.unsplash.com/photo-1676311559768-3a1c0b0e9c3f?w=1400&auto=format&fit=crop"
   },
   "newReleases": [
     {
@@ -16,7 +16,7 @@
       "rating": 8.9,
       "year": 2023,
       "genre": "Biography",
-      "image": "/placeholder.svg?height=500&width=350"
+      "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=350&auto=format&fit=crop"
     },
     {
       "id": 2,
@@ -24,7 +24,7 @@
       "rating": 7.8,
       "year": 2023,
       "genre": "Comedy",
-      "image": "/placeholder.svg?height=500&width=350"
+      "image": "https://images.unsplash.com/photo-1518709766630-a7a650f552d7?w=350&auto=format&fit=crop"
     },
     {
       "id": 3,
@@ -32,7 +32,7 @@
       "rating": 8.2,
       "year": 2023,
       "genre": "Action",
-      "image": "/placeholder.svg?height=500&width=350"
+      "image": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=350&auto=format&fit=crop"
     },
     {
       "id": 4,
@@ -40,7 +40,7 @@
       "rating": 7.5,
       "year": 2023,
       "genre": "Adventure",
-      "image": "/placeholder.svg?height=500&width=350"
+      "image": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?w=350&auto=format&fit=crop"
     },
     {
       "id": 5,
@@ -48,7 +48,7 @@
       "rating": 6.9,
       "year": 2023,
       "genre": "Sci-Fi",
-      "image": "/placeholder.svg?height=500&width=350"
+      "image": "https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=350&auto=format&fit=crop"
     },
     {
       "id": 6,
@@ -56,7 +56,7 @@
       "rating": 6.7,
       "year": 2023,
       "genre": "Superhero",
-      "image": "/placeholder.svg?height=500&width=350"
+      "image": "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=350&auto=format&fit=crop"
     }
   ],
   "awardWinners": [
@@ -66,7 +66,7 @@
       "rating": 9.3,
       "year": 2022,
       "awards": "7 Oscars",
-      "image": "/placeholder.svg?height=400&width=300"
+      "image": "https://images.unsplash.com/photo-1551029506-0807df4e2031?w=300&auto=format&fit=crop"
     },
     {
       "id": 2,
@@ -74,7 +74,7 @@
       "rating": 8.1,
       "year": 2022,
       "awards": "3 Golden Globes",
-      "image": "/placeholder.svg?height=400&width=300"
+      "image": "https://images.unsplash.com/photo-1543536448-d209d2d13a1c?w=300&auto=format&fit=crop"
     },
     {
       "id": 3,
@@ -82,7 +82,7 @@
       "rating": 8.8,
       "year": 2022,
       "awards": "6 Oscar Nominations",
-      "image": "/placeholder.svg?height=400&width=300"
+      "image": "https://images.unsplash.com/photo-1551796880-ddd03f861ae7?w=300&auto=format&fit=crop"
     },
     {
       "id": 4,
@@ -90,7 +90,7 @@
       "rating": 7.9,
       "year": 2022,
       "awards": "Best Actor Oscar",
-      "image": "/placeholder.svg?height=400&width=300"
+      "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=300&auto=format&fit=crop"
     }
   ],
   "trendingNow": [
@@ -99,42 +99,42 @@
       "title": "John Wick 4",
       "rating": 8.4,
       "views": "2.3M",
-      "image": "/placeholder.svg?height=300&width=200"
+      "image": "https://images.unsplash.com/photo-1531259683007-016a7b628fc3?w=200&auto=format&fit=crop"
     },
     {
       "id": 2,
       "title": "Scream VI",
       "rating": 7.2,
       "views": "1.8M",
-      "image": "/placeholder.svg?height=300&width=200"
+      "image": "https://images.unsplash.com/photo-1504215680853-026ed2a45def?w=200&auto=format&fit=crop"
     },
     {
       "id": 3,
       "title": "Cocaine Bear",
       "rating": 6.8,
       "views": "1.5M",
-      "image": "/placeholder.svg?height=300&width=200"
+      "image": "https://images.unsplash.com/photo-1547332223-a64509ddfb4f?w=200&auto=format&fit=crop"
     },
     {
       "id": 4,
       "title": "Creed III",
       "rating": 7.6,
       "views": "1.2M",
-      "image": "/placeholder.svg?height=300&width=200"
+      "image": "https://images.unsplash.com/photo-1630000215400-5a9f6a0a8b9c?w=200&auto=format&fit=crop"
     },
     {
       "id": 5,
       "title": "Ant-Man 3",
       "rating": 6.9,
       "views": "1.1M",
-      "image": "/placeholder.svg?height=300&width=200"
+      "image": "https://images.unsplash.com/photo-1677442135136-760c813a743e?w=200&auto=format&fit=crop"
     },
     {
       "id": 6,
       "title": "65",
       "rating": 6.3,
       "views": "900K",
-      "image": "/placeholder.svg?height=300&width=200"
+      "image": "https://images.unsplash.com/photo-1682686580391-615b4b8f53e2?w=200&auto=format&fit=crop"
     }
   ],
   "comingSoon": [
@@ -143,28 +143,28 @@
       "title": "Dune: Part Two",
       "releaseDate": "March 2024",
       "genre": "Sci-Fi",
-      "image": "/placeholder.svg?height=400&width=300"
+      "image": "https://images.unsplash.com/photo-1630000215400-5a9f6a0a8b9c?w=300&auto=format&fit=crop"
     },
     {
       "id": 2,
       "title": "Deadpool 3",
       "releaseDate": "May 2024",
       "genre": "Action",
-      "image": "/placeholder.svg?height=400&width=300"
+      "image": "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=300&auto=format&fit=crop"
     },
     {
       "id": 3,
       "title": "Fantastic Four",
       "releaseDate": "July 2024",
       "genre": "Superhero",
-      "image": "/placeholder.svg?height=400&width=300"
+      "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=300&auto=format&fit=crop"
     },
     {
       "id": 4,
       "title": "Blade",
       "releaseDate": "September 2024",
       "genre": "Horror",
-      "image": "/placeholder.svg?height=400&width=300"
+      "image": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?w=300&auto=format&fit=crop"
     }
   ],
   "directorsChoice": [
@@ -174,7 +174,7 @@
       "director": "Francis Ford Coppola",
       "rating": 9.2,
       "year": 1972,
-      "image": "/placeholder.svg?height=350&width=250"
+      "image": "https://images.unsplash.com/photo-1551029506-0807df4e2031?w=250&auto=format&fit=crop"
     },
     {
       "id": 2,
@@ -182,7 +182,7 @@
       "director": "Quentin Tarantino",
       "rating": 8.9,
       "year": 1994,
-      "image": "/placeholder.svg?height=350&width=250"
+      "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=250&auto=format&fit=crop"
     },
     {
       "id": 3,
@@ -190,7 +190,7 @@
       "director": "Christopher Nolan",
       "rating": 9.0,
       "year": 2008,
-      "image": "/placeholder.svg?height=350&width=250"
+      "image": "https://images.unsplash.com/photo-1630000215400-5a9f6a0a8b9c?w=250&auto=format&fit=crop"
     },
     {
       "id": 4,
@@ -198,7 +198,7 @@
       "director": "Steven Spielberg",
       "rating": 9.0,
       "year": 1993,
-      "image": "/placeholder.svg?height=350&width=250"
+      "image": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?w=250&auto=format&fit=crop"
     },
     {
       "id": 5,
@@ -206,7 +206,7 @@
       "director": "Sidney Lumet",
       "rating": 9.0,
       "year": 1957,
-      "image": "/placeholder.svg?height=350&width=250"
+      "image": "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=250&auto=format&fit=crop"
     }
   ],
   "genres": [

@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { useState } from "react"
 import Image from "next/image"
 import { Play, Star, Clock, Skull, Eye, Zap } from "lucide-react"
+import Link from "next/link"
 
 const horrorMovies = [
   {
@@ -190,7 +191,7 @@ export default function HorrorPage() {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-center mb-16"
+          className="text-center mt-16 mb-16"
         >
           {/* Light Switch */}
           <motion.button
@@ -318,7 +319,7 @@ export default function HorrorPage() {
               whileHover={{ y: -10, rotateY: 5 }}
             >
               <div className="bg-gradient-to-br from-gray-900/30 to-red-900/30 backdrop-blur-sm border border-red-500/30 rounded-2xl overflow-hidden transition-all duration-500 group-hover:border-red-500/50 group-hover:shadow-2xl group-hover:shadow-red-500/20">
-                <div className="relative aspect-[2/3] overflow-hidden">
+                <div className="relative w-full h-[400px] overflow-hidden">
                   <Image
                     src={movie.poster || "/placeholder.svg"}
                     alt={movie.title}
@@ -424,14 +425,16 @@ export default function HorrorPage() {
                       <span className="text-red-200 ml-2">{selectedMovie.duration}</span>
                     </div>
                   </div>
+                  <Link href="/movies">
                   <motion.button
-                    className="mt-6 bg-gradient-to-r from-red-600 to-red-800 text-white px-8 py-3 rounded-full font-semibold flex items-center"
+                    className="mt-6 cursor-pointer bg-gradient-to-r from-red-600 to-red-800 text-white px-8 py-3 rounded-full font-semibold flex items-center"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                   >
                     <Play className="h-5 w-5 mr-2 fill-white" />
                     Watch if You Dare
                   </motion.button>
+                  </Link>
                 </div>
               </div>
             </motion.div>

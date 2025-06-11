@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { useState } from "react"
 import Image from "next/image"
 import { Play, Star, Clock, Smile, Laugh, Heart } from "lucide-react"
+import Link from "next/link"
 
 const comedyMovies = [
   {
@@ -164,7 +165,7 @@ export default function ComedyPage() {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-center mb-16"
+          className="text-center mt-16 mb-16"
         >
           <motion.div
             className="inline-flex items-center justify-center w-24 h-24 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-full mb-6"
@@ -282,10 +283,10 @@ export default function ComedyPage() {
               variants={itemVariants}
               className="group cursor-pointer"
               onClick={() => setSelectedMovie(movie)}
-              whileHover={{ y: -10, rotate: Math.random() * 4 - 2 }}
+            //   whileHover={{ y: -10, rotate: Math.random() * 4 - 2 }}
             >
               <div className="bg-white/20 backdrop-blur-sm border border-white/30 rounded-2xl overflow-hidden transition-all duration-500 group-hover:border-white/50 group-hover:shadow-2xl group-hover:shadow-orange-500/20">
-                <div className="relative aspect-[2/3] overflow-hidden">
+                <div className="relative w-full h-[400px] overflow-hidden">
                   <Image
                     src={movie.poster || "/placeholder.svg"}
                     alt={movie.title}
@@ -390,14 +391,18 @@ export default function ComedyPage() {
                       <span className="text-white/90 ml-2">{selectedMovie.duration}</span>
                     </div>
                   </div>
+                  <Link href="/movies">
                   <motion.button
-                    className="mt-6 bg-white text-orange-500 px-8 py-3 rounded-full font-semibold flex items-center"
+                    className="mt-6 bg-white cursor-pointer text-orange-500 px-8 py-3 rounded-full font-semibold flex items-center"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                   >
+                    
                     <Play className="h-5 w-5 mr-2 fill-orange-500" />
                     Watch & Laugh
+                   
                   </motion.button>
+                   </Link>
                 </div>
               </div>
             </motion.div>

@@ -124,7 +124,7 @@ export default function Header() {
                   }}
                 />
               </div>
-              <span className="text-2xl font-bold bg-gradient-to-r from-white via-purple-200 to-purple-400 bg-clip-text text-transparent">
+              <span className="text-2xl hidden lg:block font-bold bg-gradient-to-r from-white via-purple-200 to-purple-400 bg-clip-text text-transparent">
                 CinemaHub
               </span>
             </motion.div>
@@ -190,7 +190,7 @@ export default function Header() {
             {/* Search Bar */}
             <motion.form
               onSubmit={handleSearch}
-              className="hidden md:flex items-center relative"
+              className="hidden items-center relative"
               initial={{ width: 180 }}
               whileFocus={{ width: 220 }}
               transition={{ duration: 0.3 }}
@@ -208,14 +208,14 @@ export default function Header() {
             </motion.form>
 
             {/* Notifications */}
-            <Link href="/notifications">
+            {/* <Link href="/notifications">
               <motion.div className="hidden sm:flex relative" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
                 <Bell className="h-5 w-5 text-white/80 hover:text-purple-300 cursor-pointer" />
                 <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full h-4 w-4 flex items-center justify-center">
                   3
                 </span>
               </motion.div>
-            </Link>
+            </Link> */}
 
             {/* User Profile */}
             <Link href="/profile">
@@ -223,7 +223,7 @@ export default function Header() {
                 <div className="h-8 w-8 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 flex items-center justify-center">
                   <User className="h-4 w-4 text-white" />
                 </div>
-                <span className="text-white text-sm font-medium">Account</span>
+                <span className="text-white hidden sm:block text-sm font-medium">Account</span>
               </motion.div>
             </Link>
 

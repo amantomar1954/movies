@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { useState } from "react"
 import Image from "next/image"
 import { Play, Star, Clock, Heart, Sparkles, Gift } from "lucide-react"
+import Link from "next/link"
 
 const romanceMovies = [
   {
@@ -117,7 +118,7 @@ export default function RomancePage() {
       {/* Animated Background */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {/* Floating Hearts */}
-        {[...Array(20)].map((_, i) => (
+        {/* {[...Array(20)].map((_, i) => (
           <motion.div
             key={i}
             className="absolute text-white/20"
@@ -140,10 +141,10 @@ export default function RomancePage() {
           >
             {["💕", "💖", "💗", "💝", "💘", "💞", "💓", "💟"][Math.floor(Math.random() * 8)]}
           </motion.div>
-        ))}
+        ))} */}
 
         {/* Rose Petals */}
-        {[...Array(15)].map((_, i) => (
+        {/* {[...Array(15)].map((_, i) => (
           <motion.div
             key={i}
             className="absolute w-3 h-3 bg-pink-300/30 rounded-full"
@@ -162,10 +163,10 @@ export default function RomancePage() {
               top: "-20px",
             }}
           />
-        ))}
+        ))} */}
 
         {/* Sparkles */}
-        {[...Array(30)].map((_, i) => (
+        {/* {[...Array(30)].map((_, i) => (
           <motion.div
             key={i}
             className="absolute text-white/40"
@@ -185,7 +186,7 @@ export default function RomancePage() {
           >
             ✨
           </motion.div>
-        ))}
+        ))} */}
       </div>
 
       <div className="relative z-10 container mx-auto px-4 py-12">
@@ -194,7 +195,7 @@ export default function RomancePage() {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-center mb-16"
+          className="text-center mt-16 mb-16"
         >
           <motion.div
             className="inline-flex items-center justify-center w-24 h-24 bg-gradient-to-r from-pink-500 to-red-500 rounded-full mb-6"
@@ -322,7 +323,7 @@ export default function RomancePage() {
               whileHover={{ y: -10, scale: 1.02 }}
             >
               <div className="bg-white/20  backdrop-blur-sm border border-white/30 rounded-2xl overflow-hidden transition-all duration-500 group-hover:border-white/50 group-hover:shadow-2xl group-hover:shadow-pink-500/20">
-                <div className="relative aspect-[2/3] overflow-hidden">
+                <div className="relative w-full h-[400px] overflow-hidden">
                   <Image
                     src={movie.poster || "/placeholder.svg"}
                     alt={movie.title}
@@ -428,14 +429,16 @@ export default function RomancePage() {
                       <span className="text-white/90 ml-2">{selectedMovie.duration}</span>
                     </div>
                   </div>
+                    <Link href="/movies">
                   <motion.button
-                    className="mt-6 bg-white text-pink-500 px-8 py-3 rounded-full font-semibold flex items-center"
+                    className="mt-6 cursor-pointer bg-white text-pink-500 px-8 py-3 rounded-full font-semibold flex items-center"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                   >
                     <Play className="h-5 w-5 mr-2 fill-pink-500" />
                     Watch with Love
                   </motion.button>
+                   </Link>
                 </div>
               </div>
             </motion.div>

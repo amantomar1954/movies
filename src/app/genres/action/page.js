@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { useState } from "react"
 import Image from "next/image"
 import { Play, Star, Clock, FlameIcon as Fire, Zap, Target } from "lucide-react"
+import Link from "next/link"
 
 const actionMovies = [
   {
@@ -12,7 +13,7 @@ const actionMovies = [
     year: 2023,
     rating: 8.2,
     duration: "2h 49m",
-    poster: "/placeholder.svg?height=450&width=300",
+    poster: "https://images.unsplash.com/photo-1489599735734-79b4169c2a78?w=350&h=400&fit=crop&crop=faces",
     description: "John Wick uncovers a path to defeating The High Table.",
     director: "Chad Stahelski",
     cast: ["Keanu Reeves", "Donnie Yen", "Bill Skarsgård"],
@@ -23,7 +24,7 @@ const actionMovies = [
     year: 2022,
     rating: 8.7,
     duration: "2h 11m",
-    poster: "/placeholder.svg?height=450&width=300",
+    poster: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=350&h=400&fit=crop&crop=faces",
     description: "After thirty years, Maverick is still pushing the envelope.",
     director: "Joseph Kosinski",
     cast: ["Tom Cruise", "Miles Teller", "Jennifer Connelly"],
@@ -34,7 +35,7 @@ const actionMovies = [
     year: 2015,
     rating: 8.1,
     duration: "2h 0m",
-    poster: "/placeholder.svg?height=450&width=300",
+    poster: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=350&h=400&fit=crop&crop=faces",
     description: "In a post-apocalyptic wasteland, Max teams up with Furiosa.",
     director: "George Miller",
     cast: ["Tom Hardy", "Charlize Theron", "Nicholas Hoult"],
@@ -45,7 +46,7 @@ const actionMovies = [
     year: 2023,
     rating: 7.8,
     duration: "2h 43m",
-    poster: "/placeholder.svg?height=450&width=300",
+    poster: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=350&h=400&fit=crop&crop=faces",
     description: "Ethan Hunt faces his most dangerous mission yet.",
     director: "Christopher McQuarrie",
     cast: ["Tom Cruise", "Hayley Atwell", "Ving Rhames"],
@@ -56,7 +57,7 @@ const actionMovies = [
     year: 2022,
     rating: 7.9,
     duration: "2h 56m",
-    poster: "/placeholder.svg?height=450&width=300",
+    poster: "https://images.unsplash.com/photo-1596284274000-7d3eca888e3e?q=80&w=3001&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Batman ventures into Gotham City's underworld.",
     director: "Matt Reeves",
     cast: ["Robert Pattinson", "Zoë Kravitz", "Paul Dano"],
@@ -67,7 +68,7 @@ const actionMovies = [
     year: 2023,
     rating: 5.8,
     duration: "2h 21m",
-    poster: "/placeholder.svg?height=450&width=300",
+    poster: "https://images.unsplash.com/photo-1646933642085-dbdb4840aa99?q=80&w=2964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Dom Toretto faces his most lethal opponent.",
     director: "Louis Leterrier",
     cast: ["Vin Diesel", "Michelle Rodriguez", "Tyrese Gibson"],
@@ -153,7 +154,7 @@ export default function ActionPage() {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-center mb-16"
+          className="text-center mt-16 mb-16"
         >
           <motion.div
             className="inline-flex items-center justify-center w-24 h-24 bg-gradient-to-r from-red-600 to-orange-600 rounded-full mb-6"
@@ -265,12 +266,13 @@ export default function ActionPage() {
               whileHover={{ y: -10 }}
             >
               <div className="bg-gradient-to-br from-red-900/30 to-orange-900/30 backdrop-blur-sm border border-red-500/30 rounded-2xl overflow-hidden transition-all duration-500 group-hover:border-orange-500/50 group-hover:shadow-2xl group-hover:shadow-orange-500/20">
-                <div className="relative aspect-[2/3] overflow-hidden">
+                <div className="relative h-[400px] w-full overflow-hidden">
                   <Image
                     src={movie.poster || "/placeholder.svg"}
                     alt={movie.title}
-                    fill
-                    className="object-cover transition-transform duration-500 group-hover:scale-110"
+                    width={350}
+                    height={400}
+                    className="w-full h-full object-cover  transition-transform duration-500 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
 
@@ -330,8 +332,8 @@ export default function ActionPage() {
                   <Image
                     src={selectedMovie.poster || "/placeholder.svg"}
                     alt={selectedMovie.title}
-                    width={300}
-                    height={450}
+                    width={350}
+                    height={400}
                     className="w-full rounded-lg"
                   />
                 </div>
@@ -361,14 +363,16 @@ export default function ActionPage() {
                       <span className="text-orange-200 ml-2">{selectedMovie.duration}</span>
                     </div>
                   </div>
+                  <Link href="/movies">
                   <motion.button
-                    className="mt-6 bg-gradient-to-r from-red-600 to-orange-600 text-white px-8 py-3 rounded-full font-semibold flex items-center"
+                    className="mt-6 cursor-pointer bg-gradient-to-r from-red-600 to-orange-600 text-white px-8 py-3 rounded-full font-semibold flex items-center"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                   >
                     <Play className="h-5 w-5 mr-2 fill-white" />
                     Watch Now
                   </motion.button>
+                  </Link>
                 </div>
               </div>
             </motion.div>

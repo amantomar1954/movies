@@ -41,39 +41,39 @@ export default function Footer() {
 
   const footerLinks = {
     movies: [
-      { name: "Popular Movies", href: "#" },
-      { name: "Top Rated", href: "#" },
-      { name: "Upcoming", href: "#" },
-      { name: "Now Playing", href: "#" },
-      { name: "Box Office", href: "#" },
+      { name: "Popular Movies", href: "/movies" },
+      { name: "Top Rated", href: "/movies" },
+      { name: "Upcoming", href: "/movies" },
+      { name: "Now Playing", href: "/movies" },
+      { name: "Box Office", href: "/movies" },
     ],
     tvShows: [
-      { name: "Popular Shows", href: "#" },
-      { name: "Airing Today", href: "#" },
-      { name: "On TV", href: "#" },
-      { name: "Top Rated Shows", href: "#" },
-      { name: "Trending", href: "#" },
+      { name: "Popular Shows", href: "/tv-shows" },
+      { name: "Airing Today", href: "/tv-shows" },
+      { name: "On TV", href: "/tv-shows" },
+      { name: "Top Rated Shows", href: "/tv-shows" },
+      { name: "Trending", href: "/tv-shows" },
     ],
     genres: [
-      { name: "Action", href: "#" },
-      { name: "Comedy", href: "#" },
-      { name: "Drama", href: "#" },
-      { name: "Horror", href: "#" },
-      { name: "Sci-Fi", href: "#" },
+      { name: "Action", href: "/genres/action" },
+      { name: "Comedy", href: "/genres/comedy" },
+      { name: "Drama", href: "/genres/drama" },
+      { name: "Horror", href: "/genres/horror" },
+      { name: "Romance", href: "/genres/romance" },
     ],
     company: [
-      { name: "About Us", href: "#" },
-      { name: "Careers", href: "#" },
-      { name: "Press", href: "#" },
-      { name: "Contact", href: "#" },
-      { name: "Blog", href: "#" },
+      { name: "About Us", href: "/about" },
+      // { name: "Careers", href: "#" },
+      // { name: "Press", href: "#" },
+      { name: "Contact", href: "/contact" },
+      // { name: "Blog", href: "#" },
     ],
     support: [
-      { name: "Help Center", href: "#" },
-      { name: "Privacy Policy", href: "#" },
-      { name: "Terms of Service", href: "#" },
-      { name: "Cookie Policy", href: "#" },
-      { name: "DMCA", href: "#" },
+      // { name: "Help Center", href: "#" },
+      { name: "Privacy Policy", href: "/privacy" },
+      { name: "Terms of Service", href: "/termsandconditions" },
+      // { name: "Cookie Policy", href: "#" },s
+      // { name: "DMCA", href: "#" },
     ],
   }
 
@@ -410,7 +410,7 @@ export default function Footer() {
         </motion.div>
 
         {/* Newsletter Section */}
-        <motion.div
+        {/* <motion.div
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
@@ -461,7 +461,7 @@ export default function Footer() {
               </motion.div>
             </div>
           </div>
-        </motion.div>
+        </motion.div> */}
 
         {/* Bottom Section */}
         <motion.div

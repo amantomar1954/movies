@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { useState } from "react"
 import Image from "next/image"
 import { Play, Star, Clock, Heart, Award, Users } from "lucide-react"
+import Link from "next/link"
 
 const dramaMovies = [
   {
@@ -151,7 +152,7 @@ export default function DramaPage() {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2 }}
-          className="text-center mb-16"
+          className="text-center mt-16 mb-16"
         >
           <motion.div
             className="inline-flex items-center justify-center w-24 h-24 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full mb-6"
@@ -257,7 +258,7 @@ export default function DramaPage() {
               whileHover={{ y: -10 }}
             >
               <div className="bg-gradient-to-br from-blue-900/20 to-purple-900/20 backdrop-blur-sm border border-blue-500/20 rounded-2xl overflow-hidden transition-all duration-700 group-hover:border-purple-500/40 group-hover:shadow-2xl group-hover:shadow-purple-500/10">
-                <div className="relative aspect-[2/3] overflow-hidden">
+                <div className="relative w-full h-[400px] overflow-hidden">
                   <Image
                     src={movie.poster || "/placeholder.svg"}
                     alt={movie.title}
@@ -371,14 +372,16 @@ export default function DramaPage() {
                       <span className="text-blue-200 ml-2">{selectedMovie.duration}</span>
                     </div>
                   </div>
+                  <Link href="/movies">
                   <motion.button
-                    className="mt-6 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full font-semibold flex items-center"
+                    className="mt-6 cursor-pointer bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full font-semibold flex items-center"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                   >
                     <Play className="h-5 w-5 mr-2 fill-white" />
                     Experience Drama
                   </motion.button>
+                  </Link>
                 </div>
               </div>
             </motion.div>
