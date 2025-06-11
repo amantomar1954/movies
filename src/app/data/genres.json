@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Action",
+    "description": "High-octane thrills with intense sequences, stunts, and adrenaline-pumping adventures.",
+    "color": "from-red-500 to-orange-500",
+    "icon": "💥",
+    "movieCount": 1247,
+    "popularTitles": ["Mad Max: Fury Road", "John Wick", "Mission Impossible"]
+  },
+  {
+    "id": 2,
+    "name": "Drama",
+    "description": "Compelling stories that explore human emotions and complex character relationships.",
+    "color": "from-purple-500 to-pink-500",
+    "icon": "🎭",
+    "movieCount": 2156,
+    "popularTitles": ["The Shawshank Redemption", "Forrest Gump", "The Godfather"]
+  },
+  {
+    "id": 3,
+    "name": "Comedy",
+    "description": "Laugh-out-loud entertainment designed to amuse and bring joy to audiences.",
+    "color": "from-yellow-400 to-orange-400",
+    "icon": "😂",
+    "movieCount": 1834,
+    "popularTitles": ["The Grand Budapest Hotel", "Superbad", "Anchorman"]
+  },
+  {
+    "id": 4,
+    "name": "Horror",
+    "description": "Spine-chilling tales designed to frighten, unsettle, and create suspense.",
+    "color": "from-gray-800 to-red-900",
+    "icon": "👻",
+    "movieCount": 892,
+    "popularTitles": ["The Conjuring", "Hereditary", "Get Out"]
+  },
+  {
+    "id": 5,
+    "name": "Sci-Fi",
+    "description": "Futuristic adventures exploring technology, space, and scientific possibilities.",
+    "color": "from-blue-500 to-cyan-500",
+    "icon": "🚀",
+    "movieCount": 1456,
+    "popularTitles": ["Blade Runner 2049", "Interstellar", "The Matrix"]
+  },
+  {
+    "id": 6,
+    "name": "Romance",
+    "description": "Heartwarming love stories that explore relationships and emotional connections.",
+    "color": "from-pink-400 to-rose-500",
+    "icon": "💕",
+    "movieCount": 1123,
+    "popularTitles": ["The Notebook", "Titanic", "La La Land"]
+  },
+  {
+    "id": 7,
+    "name": "Thriller",
+    "description": "Edge-of-your-seat suspense with psychological tension and unexpected twists.",
+    "color": "from-indigo-600 to-purple-600",
+    "icon": "🔍",
+    "movieCount": 1678,
+    "popularTitles": ["Gone Girl", "Shutter Island", "Zodiac"]
+  },
+  {
+    "id": 8,
+    "name": "Fantasy",
+    "description": "Magical worlds filled with mythical creatures and supernatural adventures.",
+    "color": "from-emerald-500 to-teal-500",
+    "icon": "🧙‍♂️",
+    "movieCount": 987,
+    "popularTitles": ["Lord of the Rings", "Harry Potter", "Pan's Labyrinth"]
+  },
+  {
+    "id": 9,
+    "name": "Animation",
+    "description": "Animated storytelling bringing characters and worlds to life through artistry.",
+    "color": "from-violet-500 to-purple-500",
+    "icon": "🎨",
+    "movieCount": 756,
+    "popularTitles": ["Spirited Away", "Toy Story", "Inside Out"]
+  },
+  {
+    "id": 10,
+    "name": "Documentary",
+    "description": "Real-life stories and factual content exploring various subjects and issues.",
+    "color": "from-amber-500 to-yellow-500",
+    "icon": "📹",
+    "movieCount": 1234,
+    "popularTitles": ["Free Solo", "Won't You Be My Neighbor?", "March of the Penguins"]
+  },
+  {
+    "id": 11,
+    "name": "Western",
+    "description": "Tales of the American frontier with cowboys, outlaws, and desert landscapes.",
+    "color": "from-orange-600 to-red-600",
+    "icon": "🤠",
+    "movieCount": 445,
+    "popularTitles": ["The Good, the Bad and the Ugly", "Unforgiven", "True Grit"]
+  },
+  {
+    "id": 12,
+    "name": "Mystery",
+    "description": "Puzzling narratives with secrets to uncover and crimes to solve.",
+    "color": "from-slate-600 to-gray-700",
+    "icon": "🕵️",
+    "movieCount": 823,
+    "popularTitles": ["Knives Out", "The Prestige", "Sherlock Holmes"]
+  }
+]

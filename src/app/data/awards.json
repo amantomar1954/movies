@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Academy Awards",
+    "shortName": "Oscars",
+    "year": 2024,
+    "ceremony": "96th Academy Awards",
+    "date": "March 10, 2024",
+    "location": "Dolby Theatre, Hollywood",
+    "icon": "🏆",
+    "color": "from-yellow-400 via-yellow-500 to-amber-600",
+    "accentColor": "from-amber-500 to-yellow-600",
+    "totalNominations": 23,
+    "categories": [
+      {
+        "category": "Best Picture",
+        "winner": "Oppenheimer",
+        "nominees": ["Barbie", "Killers of the Flower Moon", "Past Lives", "The Zone of Interest"]
+      },
+      {
+        "category": "Best Director",
+        "winner": "Christopher Nolan - Oppenheimer",
+        "nominees": ["Martin Scorsese", "Greta Gerwig", "Justine Triet", "Jonathan Glazer"]
+      },
+      {
+        "category": "Best Actor",
+        "winner": "Cillian Murphy - Oppenheimer",
+        "nominees": ["Paul Giamatti", "Bradley Cooper", "Colman Domingo", "Jeffrey Wright"]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Golden Globe Awards",
+    "shortName": "Golden Globes",
+    "year": 2024,
+    "ceremony": "81st Golden Globe Awards",
+    "date": "January 7, 2024",
+    "location": "Beverly Hilton, Beverly Hills",
+    "icon": "🌟",
+    "color": "from-purple-500 via-pink-500 to-rose-500",
+    "accentColor": "from-rose-500 to-pink-600",
+    "totalNominations": 27,
+    "categories": [
+      {
+        "category": "Best Motion Picture - Drama",
+        "winner": "Oppenheimer",
+        "nominees": ["Killers of the Flower Moon", "Maestro", "Past Lives", "The Zone of Interest"]
+      },
+      {
+        "category": "Best Motion Picture - Musical/Comedy",
+        "winner": "Poor Things",
+        "nominees": ["Air", "American Fiction", "Barbie", "The Holdovers"]
+      },
+      {
+        "category": "Best Director",
+        "winner": "Christopher Nolan - Oppenheimer",
+        "nominees": ["Bradley Cooper", "Greta Gerwig", "Yorgos Lanthimos", "Martin Scorsese"]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "BAFTA Film Awards",
+    "shortName": "BAFTAs",
+    "year": 2024,
+    "ceremony": "77th British Academy Film Awards",
+    "date": "February 18, 2024",
+    "location": "Royal Festival Hall, London",
+    "icon": "🎭",
+    "color": "from-blue-600 via-indigo-600 to-purple-700",
+    "accentColor": "from-indigo-600 to-blue-700",
+    "totalNominations": 24,
+    "categories": [
+      {
+        "category": "Best Film",
+        "winner": "Oppenheimer",
+        "nominees": ["All of Us Strangers", "American Fiction", "Anatomy of a Fall", "The Holdovers"]
+      },
+      {
+        "category": "Outstanding British Film",
+        "winner": "The Zone of Interest",
+        "nominees": ["All of Us Strangers", "Napoleon", "Saltburn", "Scrapper"]
+      },
+      {
+        "category": "Best Director",
+        "winner": "Christopher Nolan - Oppenheimer",
+        "nominees": ["Andrew Haigh", "Jonathan Glazer", "Yorgos Lanthimos", "Alexander Payne"]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Screen Actors Guild Awards",
+    "shortName": "SAG Awards",
+    "year": 2024,
+    "ceremony": "30th Annual SAG Awards",
+    "date": "February 24, 2024",
+    "location": "Shrine Auditorium, Los Angeles",
+    "icon": "🎬",
+    "color": "from-emerald-500 via-teal-500 to-cyan-600",
+    "accentColor": "from-teal-600 to-emerald-700",
+    "totalNominations": 15,
+    "categories": [
+      {
+        "category": "Outstanding Performance by a Cast",
+        "winner": "Oppenheimer",
+        "nominees": ["American Fiction", "Killers of the Flower Moon", "Past Lives", "The Color Purple"]
+      },
+      {
+        "category": "Outstanding Performance by a Male Actor",
+        "winner": "Cillian Murphy - Oppenheimer",
+        "nominees": ["Riz Ahmed", "Bradley Cooper", "Colman Domingo", "Paul Giamatti"]
+      },
+      {
+        "category": "Outstanding Performance by a Female Actor",
+        "winner": "Lily Gladstone - Killers of the Flower Moon",
+        "nominees": ["Annette Bening", "Sandra Hüller", "Carey Mulligan", "Emma Stone"]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Cannes Film Festival",
+    "shortName": "Cannes",
+    "year": 2024,
+    "ceremony": "77th Cannes Film Festival",
+    "date": "May 14-25, 2024",
+    "location": "Palais des Festivals, Cannes",
+    "icon": "🏅",
+    "color": "from-red-500 via-pink-500 to-rose-600",
+    "accentColor": "from-rose-600 to-red-700",
+    "totalNominations": 21,
+    "categories": [
+      {
+        "category": "Palme d'Or",
+        "winner": "Anora",
+        "nominees": ["All We Imagine as Light", "Emilia Pérez", "The Substance", "Brutalist"]
+      },
+      {
+        "category": "Grand Prix",
+        "winner": "All We Imagine as Light",
+        "nominees": ["Emilia Pérez", "The Substance", "I Saw the TV Glow", "Bird"]
+      },
+      {
+        "category": "Best Director",
+        "winner": "Jesse Plemons - Civil War",
+        "nominees": ["Coralie Fargeat", "Sean Baker", "Payal Kapadia", "Brady Corbet"]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Critics Choice Awards",
+    "shortName": "Critics Choice",
+    "year": 2024,
+    "ceremony": "29th Critics Choice Awards",
+    "date": "January 14, 2024",
+    "location": "Barker Hangar, Santa Monica",
+    "icon": "⭐",
+    "color": "from-violet-500 via-purple-500 to-indigo-600",
+    "accentColor": "from-purple-600 to-violet-700",
+    "totalNominations": 28,
+    "categories": [
+      {
+        "category": "Best Picture",
+        "winner": "Oppenheimer",
+        "nominees": ["American Fiction", "Barbie", "Killers of the Flower Moon", "Past Lives"]
+      },
+      {
+        "category": "Best Director",
+        "winner": "Christopher Nolan - Oppenheimer",
+        "nominees": ["Greta Gerwig", "Yorgos Lanthimos", "Alexander Payne", "Martin Scorsese"]
+      },
+      {
+        "category": "Best Acting Ensemble",
+        "winner": "Oppenheimer",
+        "nominees": ["American Fiction", "Barbie", "Killers of the Flower Moon", "The Holdovers"]
+      }
+    ]
+  }
+]

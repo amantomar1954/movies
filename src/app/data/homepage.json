@@ -1,0 +1,250 @@
+{
+  "featuredMovie": {
+    "title": "Avatar: The Way of Water",
+    "subtitle": "Return to Pandora",
+    "description": "Set more than a decade after the events of the first film, Avatar: The Way of Water begins to tell the story of the Sully family, the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
+    "rating": 9.1,
+    "year": 2023,
+    "duration": "3h 12m",
+    "genre": ["Sci-Fi", "Adventure", "Action"],
+    "image": "/placeholder.svg?height=800&width=1400"
+  },
+  "newReleases": [
+    {
+      "id": 1,
+      "title": "Oppenheimer",
+      "rating": 8.9,
+      "year": 2023,
+      "genre": "Biography",
+      "image": "/placeholder.svg?height=500&width=350"
+    },
+    {
+      "id": 2,
+      "title": "Barbie",
+      "rating": 7.8,
+      "year": 2023,
+      "genre": "Comedy",
+      "image": "/placeholder.svg?height=500&width=350"
+    },
+    {
+      "id": 3,
+      "title": "Mission Impossible 7",
+      "rating": 8.2,
+      "year": 2023,
+      "genre": "Action",
+      "image": "/placeholder.svg?height=500&width=350"
+    },
+    {
+      "id": 4,
+      "title": "Indiana Jones 5",
+      "rating": 7.5,
+      "year": 2023,
+      "genre": "Adventure",
+      "image": "/placeholder.svg?height=500&width=350"
+    },
+    {
+      "id": 5,
+      "title": "Transformers: Rise",
+      "rating": 6.9,
+      "year": 2023,
+      "genre": "Sci-Fi",
+      "image": "/placeholder.svg?height=500&width=350"
+    },
+    {
+      "id": 6,
+      "title": "The Flash",
+      "rating": 6.7,
+      "year": 2023,
+      "genre": "Superhero",
+      "image": "/placeholder.svg?height=500&width=350"
+    }
+  ],
+  "awardWinners": [
+    {
+      "id": 1,
+      "title": "Everything Everywhere",
+      "rating": 9.3,
+      "year": 2022,
+      "awards": "7 Oscars",
+      "image": "/placeholder.svg?height=400&width=300"
+    },
+    {
+      "id": 2,
+      "title": "The Banshees of Inisherin",
+      "rating": 8.1,
+      "year": 2022,
+      "awards": "3 Golden Globes",
+      "image": "/placeholder.svg?height=400&width=300"
+    },
+    {
+      "id": 3,
+      "title": "Top Gun: Maverick",
+      "rating": 8.8,
+      "year": 2022,
+      "awards": "6 Oscar Nominations",
+      "image": "/placeholder.svg?height=400&width=300"
+    },
+    {
+      "id": 4,
+      "title": "The Whale",
+      "rating": 7.9,
+      "year": 2022,
+      "awards": "Best Actor Oscar",
+      "image": "/placeholder.svg?height=400&width=300"
+    }
+  ],
+  "trendingNow": [
+    {
+      "id": 1,
+      "title": "John Wick 4",
+      "rating": 8.4,
+      "views": "2.3M",
+      "image": "/placeholder.svg?height=300&width=200"
+    },
+    {
+      "id": 2,
+      "title": "Scream VI",
+      "rating": 7.2,
+      "views": "1.8M",
+      "image": "/placeholder.svg?height=300&width=200"
+    },
+    {
+      "id": 3,
+      "title": "Cocaine Bear",
+      "rating": 6.8,
+      "views": "1.5M",
+      "image": "/placeholder.svg?height=300&width=200"
+    },
+    {
+      "id": 4,
+      "title": "Creed III",
+      "rating": 7.6,
+      "views": "1.2M",
+      "image": "/placeholder.svg?height=300&width=200"
+    },
+    {
+      "id": 5,
+      "title": "Ant-Man 3",
+      "rating": 6.9,
+      "views": "1.1M",
+      "image": "/placeholder.svg?height=300&width=200"
+    },
+    {
+      "id": 6,
+      "title": "65",
+      "rating": 6.3,
+      "views": "900K",
+      "image": "/placeholder.svg?height=300&width=200"
+    }
+  ],
+  "comingSoon": [
+    {
+      "id": 1,
+      "title": "Dune: Part Two",
+      "releaseDate": "March 2024",
+      "genre": "Sci-Fi",
+      "image": "/placeholder.svg?height=400&width=300"
+    },
+    {
+      "id": 2,
+      "title": "Deadpool 3",
+      "releaseDate": "May 2024",
+      "genre": "Action",
+      "image": "/placeholder.svg?height=400&width=300"
+    },
+    {
+      "id": 3,
+      "title": "Fantastic Four",
+      "releaseDate": "July 2024",
+      "genre": "Superhero",
+      "image": "/placeholder.svg?height=400&width=300"
+    },
+    {
+      "id": 4,
+      "title": "Blade",
+      "releaseDate": "September 2024",
+      "genre": "Horror",
+      "image": "/placeholder.svg?height=400&width=300"
+    }
+  ],
+  "directorsChoice": [
+    {
+      "id": 1,
+      "title": "The Godfather",
+      "director": "Francis Ford Coppola",
+      "rating": 9.2,
+      "year": 1972,
+      "image": "/placeholder.svg?height=350&width=250"
+    },
+    {
+      "id": 2,
+      "title": "Pulp Fiction",
+      "director": "Quentin Tarantino",
+      "rating": 8.9,
+      "year": 1994,
+      "image": "/placeholder.svg?height=350&width=250"
+    },
+    {
+      "id": 3,
+      "title": "The Dark Knight",
+      "director": "Christopher Nolan",
+      "rating": 9.0,
+      "year": 2008,
+      "image": "/placeholder.svg?height=350&width=250"
+    },
+    {
+      "id": 4,
+      "title": "Schindler's List",
+      "director": "Steven Spielberg",
+      "rating": 9.0,
+      "year": 1993,
+      "image": "/placeholder.svg?height=350&width=250"
+    },
+    {
+      "id": 5,
+      "title": "12 Angry Men",
+      "director": "Sidney Lumet",
+      "rating": 9.0,
+      "year": 1957,
+      "image": "/placeholder.svg?height=350&width=250"
+    }
+  ],
+  "genres": [
+    {
+      "name": "Action",
+      "count": 1250,
+      "color": "from-red-500 to-orange-500",
+      "icon": "Zap"
+    },
+    {
+      "name": "Comedy",
+      "count": 890,
+      "color": "from-yellow-500 to-pink-500",
+      "icon": "Heart"
+    },
+    {
+      "name": "Drama",
+      "count": 1100,
+      "color": "from-blue-500 to-purple-500",
+      "icon": "Award"
+    },
+    {
+      "name": "Horror",
+      "count": 650,
+      "color": "from-purple-500 to-red-500",
+      "icon": "Fire"
+    },
+    {
+      "name": "Sci-Fi",
+      "count": 780,
+      "color": "from-cyan-500 to-blue-500",
+      "icon": "Sparkles"
+    },
+    {
+      "name": "Romance",
+      "count": 920,
+      "color": "from-pink-500 to-rose-500",
+      "icon": "Heart"
+    }
+  ]
+}
